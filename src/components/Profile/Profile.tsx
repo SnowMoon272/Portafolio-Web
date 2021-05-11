@@ -7,10 +7,6 @@ import profileImage from "../../images/avatar.jpg"
 const Profile = () => {
   const data = [
     {
-      title: "Edad",
-      info: "26 años",
-    },
-    {
       title: "Dirección",
       info:
         "C. Aguiluchos Mz. E Lt.13 Int.19, Bulevares del Lago, Ciudad Nicolas Romero, Mex. 54473",
@@ -20,8 +16,20 @@ const Profile = () => {
       info: "CastielAltair0027@outlook.com",
     },
     {
+      title: "Edad",
+      info: "26 años",
+    },
+    {
       title: "Telefono",
+      info: "55-8933-5171",
+    },
+    {
+      title: "Celular",
       info: "55-6192-2596",
+    },
+    {
+      title: "Nacionalidad",
+      info: "Méxicana",
     },
   ]
 
@@ -35,7 +43,7 @@ const Profile = () => {
             <Image src={profileImage} fluid rounded />
           </Col>
           <Col xs={12} md={8} className="info__data">
-            <span>!Hola!</span>
+            <span>¡ Hola !</span>
             <p>Manuel Roberto Serrano Torres</p>
             <p>Fontend Developer</p>
             <hr />
