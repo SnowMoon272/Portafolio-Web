@@ -1,10 +1,16 @@
 import React from "react"
 import Menu from "../components/Menu"
 
-export const BasicLayout = ({ children }) => {
+export const BasicLayout = ({
+  children,
+  menuColor,
+}: {
+  children: JSX.Element
+  menuColor?: string
+}) => {
   return (
     <>
-      <Menu />
+      <Menu menuColor={menuColor} />
       {children}
     </>
   )

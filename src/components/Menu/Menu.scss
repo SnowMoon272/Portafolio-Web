@@ -1,3 +1,26 @@
 .menu {
-  background-color: gray;
+  // background-color: gray;
+  position: relative;
+  z-index: 10;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    li {
+      padding: 3rem 2rem;
+      font-size: 1.6rem;
+      font-weight: bold;
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          color: #0098d3;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }

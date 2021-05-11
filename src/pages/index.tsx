@@ -1,14 +1,14 @@
-import * as React from "react"
-import { Button } from "react-bootstrap"
+import React from "react"
+import { BasicLayout } from "../layouts/BasicLayout"
+import Profile from "../components/Profile"
 import "./index.scss"
 
-import { BasicLayout } from "../layouts/BasicLayout"
-
 const IndexPage = () => (
-  <BasicLayout>
-    <h2 className="title">Hi people</h2>
-    <Button variant="primary">Click me</Button>
-    <Button variant="success">Click me</Button>
+  <BasicLayout /* menuColor="#000" */>
+    <>
+      <Profile />
+      <h2 className="title">Estamos en la Home</h2>
+    </>
   </BasicLayout>
 )
 
