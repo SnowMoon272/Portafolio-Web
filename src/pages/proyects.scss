@@ -1,5 +1,8 @@
+body {
+  background-color: #d0d0d5;
+}
 .proyect__container {
-  // background-color: grey;
+  background-color: #d0d0d5;
   margin-bottom: 7rem;
   width: 100vw;
   height: fit-content;
@@ -19,23 +22,43 @@
     justify-content: center;
   }
   .project {
-    // border: solid 3px #a8a8aa;
     width: 45rem;
     height: fit-content;
-    box-shadow: 0px 0px 15px 6px rgba(10, 10, 35, 0.568);
     margin: 2rem;
 
     .image {
+      border-start-start-radius: 20px;
+      border-start-end-radius: 20px;
+      margin: 5rem 5rem 0 5rem;
       height: 20rem;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
     }
+    .Card-Body {
+      border: solid 3px rgb(10, 10, 35);
+
+      background-color: white;
+      h2 {
+        color: #0a0a23;
+        font-weight: bold;
+      }
+    }
     a {
       text-align: center;
       button {
+        border-radius: 5px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border: solid 3px rgb(10, 10, 35);
+        background-color: #d0d0d5;
+        color: rgb(10, 10, 35);
         width: 44%;
         margin: 0 1rem;
+        &:hover {
+          background-color: rgb(10, 10, 35);
+          color: #d0d0d5;
+        }
       }
     }
   }
