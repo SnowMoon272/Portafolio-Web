@@ -1,15 +1,14 @@
-import React from "react"
-import "./Profile.scss"
-import { Container, Row, Col, Image } from "react-bootstrap"
-import Social from "./Social"
-import profileImage from "../../images/avatar.jpg"
+import React from "react";
+import "./Profile.scss";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import Social from "./Social";
+import profileImage from "../../images/avatar.jpg";
 
 const Profile = () => {
   const data = [
     {
       title: "Dirección",
-      info:
-        "C. Aguiluchos Mz. E Lt.13 Int.19, Bulevares del Lago, Ciudad Nicolas Romero, Mex. 54473",
+      info: "C. Aguiluchos Mz. E Lt.13 Int.19, Bulevares del Lago, Ciudad Nicolas Romero, Mex. 54473",
     },
     {
       title: "e-mail",
@@ -31,7 +30,7 @@ const Profile = () => {
       title: "Nacionalidad",
       info: "Méxicana",
     },
-  ]
+  ];
 
   return (
     <div className="profile">
@@ -54,7 +53,7 @@ const Profile = () => {
                     <p>{item.title}:</p>
                     <p>{item.info}</p>
                   </div>
-                )
+                );
               })}
             </div>
           </Col>
@@ -62,7 +61,7 @@ const Profile = () => {
         <Social />
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;

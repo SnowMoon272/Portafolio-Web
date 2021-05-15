@@ -1,7 +1,55 @@
-.projects {
-  border: solid red 1px;
-  background-color: aqua;
+.proyect__container {
+  // background-color: grey;
+  margin-bottom: 7rem;
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+
   h1 {
+    color: rgb(10, 10, 35);
     margin: 50px 0 30px 0;
+    font-weight: bold;
   }
+  .ctner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .project {
+    // border: solid 3px #a8a8aa;
+    width: 45rem;
+    height: fit-content;
+    box-shadow: 0px 0px 15px 6px rgba(10, 10, 35, 0.568);
+    margin: 2rem;
+
+    .image {
+      height: 20rem;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    a {
+      text-align: center;
+      button {
+        width: 44%;
+        margin: 0 1rem;
+      }
+    }
+  }
+}
+
+footer {
+  padding-right: 5rem;
+  position: fixed;
+  bottom: 0px;
+  color: #d0d0d5;
+  width: 100%;
+  background-color: rgb(10, 10, 35);
+  height: 85px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }

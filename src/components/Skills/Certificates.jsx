@@ -77,6 +77,7 @@ const Certificates = ({ data, SwitchSTATE, setSwitchSTATE }) => {
       </div>
 
       <button
+        type="button"
         onClick={() => {
           setSwitchSTATE(!SwitchSTATE);
         }}

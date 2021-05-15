@@ -1,18 +1,11 @@
-import React from "react"
-import { Link } from "gatsby"
-import { Container } from "react-bootstrap"
-import "./Menu.scss"
+import React from "react";
+import { Link } from "gatsby";
+import { Container } from "react-bootstrap";
+import "./Menu.scss";
 
-export default function Menu({
-  menuColor,
-}: {
-  menuColor: string
-}): JSX.Element {
+export default function Menu({ menuColor }: { menuColor: string }): JSX.Element {
   return (
-    <header
-      style={{ backgroundColor: menuColor || "trasparent" }}
-      className="menu"
-    >
+    <header style={{ backgroundColor: menuColor || "trasparent" }} className="menu">
       <Container>
         <ul>
           <li>
@@ -27,5 +20,5 @@ export default function Menu({
         </ul>
       </Container>
     </header>
-  )
+  );
 }

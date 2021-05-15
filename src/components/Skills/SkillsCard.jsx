@@ -1,7 +1,7 @@
 import React from "react";
-import Card from "./Card";
 import styled from "styled-components";
-import { data } from "../../Data/Data";
+import Card from "./Card";
+import data from "../../Data/Data";
 
 const ContainerSty = styled.section`
   /* border: 3px solid red; */

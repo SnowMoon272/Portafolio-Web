@@ -22,8 +22,7 @@ const Social = () => {
     },
     {
       icon: <IcLinked />,
-      link:
-        "https://www.linkedin.com/in/manuel-roberto-serrano-torres-b105b11b2/",
+      link: "https://www.linkedin.com/in/manuel-roberto-serrano-torres-b105b11b2/",
     },
     {
       icon: <IcInsta />,
@@ -35,12 +34,7 @@ const Social = () => {
     <div className="social">
       {socialMedia.map((social, index) => {
         return (
-          <a
-            key={index}
-            href={social.link}
-            target="_blanck"
-            rel="noreferer noopener"
-          >
+          <a key={index} href={social.link} target="_blanck" rel="noreferer noopener">
             {social.icon}
           </a>
         );
