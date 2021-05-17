@@ -7,10 +7,6 @@ import profileImage from "../../images/avatar.jpg";
 const Profile = () => {
   const data = [
     {
-      title: "Dirección",
-      info: "C. Aguiluchos Mz. E Lt.13 Int.19, Bulevares del Lago, Ciudad Nicolas Romero, Mex. 54473",
-    },
-    {
       title: "e-mail",
       info: "CastielAltair0027@outlook.com",
     },
@@ -34,7 +30,7 @@ const Profile = () => {
 
   return (
     <div className="profile">
-      <div className="wallpaper">Componente Profile</div>
+      <div className="wallpaper" />
       <div className="dark" />
       <Container className="box">
         <Row className="info">
