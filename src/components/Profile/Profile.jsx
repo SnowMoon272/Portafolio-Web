@@ -2,13 +2,21 @@ import React from "react";
 import "./Profile.scss";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Social from "./Social";
-import profileImage from "../../images/avatar.jpg";
+import profileImage from "../../images/avatar.jpeg";
 
 const Profile = () => {
   const data = [
     {
       title: "e-mail",
       info: "CastielAltair0027@outlook.com",
+    },
+    {
+      title: "e-mail alterno",
+      info: "SnowMoon272@outlook.com",
+    },
+    {
+      title: "Nickname",
+      info: "SnowMoon",
     },
     {
       title: "Edad",
@@ -25,6 +33,10 @@ const Profile = () => {
     {
       title: "Nacionalidad",
       info: "Méxicana",
+    },
+    {
+      title: "Disponibilidad a trasladarse",
+      info: "Si",
     },
   ];
 
