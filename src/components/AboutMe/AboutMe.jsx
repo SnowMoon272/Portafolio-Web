@@ -18,7 +18,7 @@ const AboutMe = () => {
         domino lenguajes, librerías y algún framework, entre ellos HTML5, CSS3, JS, React, entre
         otros. Mi formación continua como Frontend y me preparó igualmente como Backend para
         futuramente poder llamarme Fullstack. <br /> Este portafolio web fue diseñado y creado por
-        mí y en es incluyo certificados obtenidos y proyectos creados.
+        mí y en el incluyo certificados obtenidos y proyectos creados.
       </p>
       <hr />
       <a href={CV} target="_blanck">
