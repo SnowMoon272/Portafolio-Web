@@ -58,6 +58,10 @@
                 width: 30%;
                 font-weight: bold;
                 text-transform: uppercase;
+
+                @media (max-width: 450px) {
+                  width: 60%;
+                }
               }
               &:last-of-type {
                 font-size: 1.4rem;

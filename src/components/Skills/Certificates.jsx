@@ -15,6 +15,14 @@ const CertificatesStyle = styled.div`
   top: 33%;
   padding: 3rem;
   color: white;
+  overflow: auto;
+
+  @media (max-width: 450px) {
+    overflow: auto;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+  }
   > h2 {
     font-size: 4rem;
     color: rgb(208, 208, 213);

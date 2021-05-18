@@ -25,6 +25,9 @@ body {
     width: 45rem;
     height: fit-content;
     margin: 2rem;
+    @media (max-width: 450px) {
+      width: 100vw;
+    }
 
     .image {
       border-start-start-radius: 20px;
@@ -37,8 +40,8 @@ body {
     }
     .Card-Body {
       border: solid 3px rgb(10, 10, 35);
-
       background-color: white;
+
       h2 {
         color: #0a0a23;
         font-weight: bold;
