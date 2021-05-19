@@ -1,6 +1,7 @@
 import aire from "../images/projects/aire.png";
 import gastos from "../images/projects/gastos.png";
 import folio from "../images/projects/portafolio.png";
+import batata from "../images/projects/batata.png";
 
 export default [
   {
@@ -26,5 +27,12 @@ export default [
     urla: "https://snowmoon-briefcase.netlify.app/",
     urlb: "https://github.com/SnowMoon272/Portafolio-Web",
     image: folio,
+  },
+  {
+    title: "Batatabit",
+    description: "Pequeña SPA creada con Mobile First, donde se emplea, BEM y HTML semantico.",
+    urla: "https://batatabitle.netlify.app/",
+    urlb: "https://github.com/SnowMoon272/Mobile-Firts",
+    image: batata,
   },
 ];
