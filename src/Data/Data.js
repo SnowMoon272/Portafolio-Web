@@ -17,6 +17,7 @@ import Ecmascript6 from "./Ecmascript-6.pdf";
 import FlexboxCssGrid from "./Flexbox-Css-Grid.pdf";
 import FrontendDeveloper from "./Frontend-Developer.pdf";
 import FundamentosJavascript from "./Fundamentos-Javascript.pdf";
+import GitGithub from "./Git-Github.pdf";
 import HtmlCssDefinitivo from "./Html-Css-Definitivo.pdf";
 import HtmlCss from "./Html-Css.pdf";
 import HtmlPractico from "./Html-Practico.pdf";
@@ -34,6 +35,7 @@ import ReactJs from "./React-Js.pdf";
 import ReactUdemy from "./React-Udemy.pdf";
 import ReactT from "./React.pdf";
 import ResponsiveDesign from "./Responsive-Design.pdf";
+import Sass from "./Sass.pdf";
 import Scope from "./Scope.pdf";
 import SinglepageApp from "./Singlepage-App.pdf";
 import SpaJavascript from "./Spa-Javascript.pdf";
@@ -61,6 +63,7 @@ const data = [
       { document: PracticoCss, text: "Practico de Css" },
       { document: Preprocesadores, text: "Preprocesadores" },
       { document: ResponsiveDesign, text: "Responsive Design" },
+      { document: Sass, text: "Sass" },
     ],
   },
   {
@@ -100,14 +103,17 @@ const data = [
   {
     icon: <IcSer />,
     text: "APIs, Firebase",
-    cert: [{ document: ReactUdemy, text: "Firebase" }],
+    cert: [
+      { document: ReactUdemy, text: "Firebase" },
+      { document: null, text: "Curso en progreso de Postman" },
+    ],
   },
   {
     icon: <IcGit />,
     text: "Git, GitHub, GitLab",
     cert: [
-      { document: null, text: "Curso en Progreso" },
-      { document: null, text: "Curso en Progreso" },
+      { document: GitGithub, text: "Git & Github" },
+      { document: null, text: "Curso en Progreso de GitLab" },
     ],
   },
   {
