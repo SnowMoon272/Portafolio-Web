@@ -3,7 +3,7 @@ import IcTwitter from "../../../images/icons/twitter.svg";
 import IcFacebook from "../../../images/icons/facebook.svg";
 import IcHub from "../../../images/icons/web.svg";
 import IcLinked from "../../../images/icons/linkedin.svg";
-import IcInsta from "../../../images/icons/instagram.svg";
+// import IcInsta from "../../../images/icons/instagram.svg";
 import "./Social.scss";
 
 const Social = () => {
@@ -14,7 +14,7 @@ const Social = () => {
     },
     {
       icon: <IcFacebook />,
-      link: "https://www.facebook.com/CastielAltair",
+      link: "https://www.facebook.com/SnowMoon272",
     },
     {
       icon: <IcHub />,
@@ -22,12 +22,12 @@ const Social = () => {
     },
     {
       icon: <IcLinked />,
-      link: "https://www.linkedin.com/in/manuel-roberto-serrano-torres-b105b11b2/",
+      link: "https://www.linkedin.com/in/manuel-roberto-serrano-torres-436033214/",
     },
-    {
-      icon: <IcInsta />,
-      link: "https://www.instagram.com/snowmoon272/",
-    },
+    // {
+    //   icon: <IcInsta />,
+    //   link: "https://www.instagram.com/snowmoon272/",
+    // },
   ];
 
   return (

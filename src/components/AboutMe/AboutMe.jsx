@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
-import CV from "../../Data/Curriculum Manuel.pdf";
+import CV from "../../Data/Frontend-Developer_Curriculum.pdf";
 import "./AboutMe.scss";
 
 const AboutMe = () => {

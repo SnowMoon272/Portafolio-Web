@@ -8,14 +8,14 @@ const Profile = () => {
   const data = [
     {
       title: "e-mail",
-      info: "CastielAltair0027@outlook.com",
+      info: "MR_Serrano27@outlook.com",
     },
     {
       title: "e-mail alterno",
-      info: "SnowMoon272@outlook.com",
+      info: "CastielAltair0027@outlook.com",
     },
     {
-      title: "Nickname",
+      title: "Nickname en Redes",
       info: "SnowMoon",
     },
     {
@@ -33,10 +33,6 @@ const Profile = () => {
     {
       title: "Nacionalidad",
       info: "Méxicana",
-    },
-    {
-      title: "Disponibilidad a trasladarse",
-      info: "Si",
     },
   ];
 
