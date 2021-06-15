@@ -35,6 +35,10 @@ const StyleContainer = styled.div`
     }
     > img {
       padding: 8rem 0;
+      @media (max-width: 990px) {
+        width: 50%;
+        padding: 6rem 0;
+      }
     }
   }
 `;
@@ -46,7 +50,7 @@ const SkillsContainer = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 
   .skills {
     display: flex;
@@ -60,7 +64,7 @@ const skills = () => {
       <Container>
         <StyleContainer>
           <div className="skills__block">
-            <h2>Desarrollador web Front-end</h2>
+            <h2>Desarrollador Web Front-end</h2>
             <p>Codifico cosas maravillosamente simples, y me encanta lo que hago.</p>
             <img src={avataLi} alt="Avatar" />
             <a href="#skills">

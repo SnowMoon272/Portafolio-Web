@@ -49,6 +49,21 @@ const CardStyle = styled.div`
       color: white;
     }
   }
+
+  @media (max-width: 990px) {
+    width: 330px;
+    height: 50px;
+
+    > svg:first-of-type {
+      height: 3.5rem;
+      width: 3.5rem;
+    }
+
+    > svg:last-of-type {
+      height: 1.5rem;
+      width: 1.5rem;
+    }
+  }
 `;
 
 const Button = styled.button`

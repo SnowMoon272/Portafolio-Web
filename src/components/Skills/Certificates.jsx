@@ -4,25 +4,18 @@ import styled from "styled-components";
 const CertificatesStyle = styled.div`
   background-color: rgb(10, 10, 35);
   border: 3px solid rgb(208, 208, 213);
-  position: fixed;
+  position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   z-index: 100;
   width: 90%;
   height: fit-content;
-  top: 33%;
   padding: 3rem;
   color: white;
   overflow: auto;
 
-  @media (max-width: 450px) {
-    overflow: auto;
-    width: 100vw;
-    height: 100vh;
-    top: 0%;
-  }
   > h2 {
     font-size: 4rem;
     color: rgb(208, 208, 213);
@@ -44,6 +37,7 @@ const CertificatesStyle = styled.div`
       background-color: rgb(208, 208, 213);
     }
   }
+
   .pdf {
     display: flex;
     justify-content: space-around;
@@ -65,6 +59,34 @@ const CertificatesStyle = styled.div`
         color: rgb(10, 10, 35);
         background-color: rgb(208, 208, 213);
       }
+    }
+  }
+
+  @media (max-width: 450px) {
+    overflow: auto;
+    width: 100vw;
+    height: 100%;
+    top: 0%;
+    border: none;
+    position: fixed;
+    padding: 0;
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    button {
+      width: 15rem;
+      padding: 0.6rem;
+      font-size: 1.5rem;
+    }
+
+    .pdf {
+      padding: 6rem 2rem;
+    }
+    .pdf a {
+      padding: 0.5rem 1.5rem;
+      font-size: 1.2rem;
     }
   }
 `;
