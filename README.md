@@ -10,13 +10,13 @@
 
 Este portafolio web fue realizado por mí utilizando tecnologías como <a href="https://www.gatsbyjs.com/" target="_blanck">Gatsby</a> que es un framework basado en React el cual facilita la creación de páginas web estáticas.
 
-Se incluyen imágenes para facilitar su exploración.
-
 ## 🚀 Home
 
 1.  **Pagina Principal.**
 
 En esta página se da información personal, para contactarme en caso de requerirlo,acceso a mis redes y doy una breve información mía. Se incluye un link a mi CV
+
+[<img src="./src/images/Home.jpg" alt="Home page.">](https://snowmoon-briefcase.netlify.app/)
 
 2.  **Skills.**
 
@@ -28,9 +28,7 @@ Esta sección incluye una miniatura de la vista principal de cada proyecto que h
 
 ## 🚀 Quick start (Gatsby Cloud)
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-default)
+<!-- [<img src="./src/images/Home.jpg" alt="Home page.">](https://snowmoon-briefcase.netlify.app/) -->
 
 ## 🧐 What's inside?
 
