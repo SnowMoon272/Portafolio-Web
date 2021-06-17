@@ -32,10 +32,4 @@ Esta sección incluye una miniatura de la vista principal de cada proyecto que h
 
 [<img src="./src/images/Proyectos.jpg" alt="Proyects.">](https://snowmoon-briefcase.netlify.app/proyects)
 
-## 🚀 Quick start (Gatsby Cloud)
-
-<!-- [<img src="./src/images/Home.jpg" alt="Home page.">](https://snowmoon-briefcase.netlify.app/) -->
-
-## 🧐 What's inside?
-
 Proyecto creado por SnowMoon
