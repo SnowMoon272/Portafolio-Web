@@ -10,7 +10,7 @@
 
 Este portafolio web fue realizado por mí utilizando tecnologías como <a href="https://www.gatsbyjs.com/" target="_blanck">Gatsby</a> que es un framework basado en React el cual facilita la creación de páginas web estáticas.
 
-## 🚀 Home
+## 🚀 Portafolio
 
 1.  **Pagina Principal.**
 
@@ -22,9 +22,15 @@ En esta página se da información personal, para contactarme en caso de requeri
 
 En esta página incluí mis certificados obtenidos, a lo largo de mi formación como desarrollador web. Se encuentran separados por secciones y cada sección tiene acceso al certificado en PDF para su revisión.
 
+[<img src="./src/images/Skills1.jpg" alt="Skills.">](https://snowmoon-briefcase.netlify.app/skills)
+[<img src="./src/images/Skills2.jpg" alt="Skills.">](https://snowmoon-briefcase.netlify.app/skills#skills)
+[<img src="./src/images/Skills3.jpg" alt="Skills.">](https://snowmoon-briefcase.netlify.app/skills#skills)
+
 3.  **Proyectos**
 
 Esta sección incluye una miniatura de la vista principal de cada proyecto que he creado, junto con un link que da acceso al proyecto en sí y otro que da acceso a su código en GitHub, se agrega de igual forma una breve descripción de cada proyecto.
+
+[<img src="./src/images/Proyectos.jpg" alt="Proyects.">](https://snowmoon-briefcase.netlify.app/proyects)
 
 ## 🚀 Quick start (Gatsby Cloud)
 
