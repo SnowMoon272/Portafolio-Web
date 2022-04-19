@@ -20,7 +20,7 @@ const Profile = () => {
     },
     {
       title: "Edad",
-      info: "26 años",
+      info: "27 años",
     },
     {
       title: "Telefono",
